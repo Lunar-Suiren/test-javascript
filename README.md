@@ -193,8 +193,8 @@ for (let i = 10; i >= 2; i--) {
 //Solución
 let i = 0
 while (i < 5) {
-  i++;
   console.log(`El valor de i es: ${i}`);
+  i++;
 }
 ```
 
