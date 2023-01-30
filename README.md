@@ -202,18 +202,12 @@ while (i < 5) {
 >💡 Pista: puedes usar la función prompt de JavaScript.
 
 ```js
-const result = 4
+let answer;
 
-function quizz() {
-  let user_answer = prompt("¿Cuánto es 2 + 2?");
-  if (user_answer == result) {
-    alert("Felicidades, tu respuesta es correcta!");
-  } else {
-    alert("Lo sentimos, tu respuesta es incorrecta, intentalo de nuevo");
-  }
+while (answer !=4) {
+    let question = prompt('¿Cuánto es 2 + ?')
+    answer = question;
 }
-
-quizz();
 ```
 
 ## Listas
