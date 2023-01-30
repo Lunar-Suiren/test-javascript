@@ -156,6 +156,24 @@ let suscripcion = "Basic";
     console.log(`Con tu suscripcion al plan ${tipoDeSuscripcion[i]} ${info[i]}`);
   }
  }
+ 
+ //Solución Simplicada:
+ 
+ const tipoDeSuscripciones = {
+    free: 'solo puedes tomar los cursos gratis',
+    basic: 'puedes tomar casi todos los cursos de Platzi durante un mes',
+    expert: 'puedes tomar casi todos los cursos de Platzi durante un año'.
+    expertduo: 'tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año',
+ };
+ 
+ function conseguirTipoSuscripcion(suscripcion) {
+    if (tipoDeSuscripciones[suscripcion]) {
+        console.log(tipoDeSuscripciones[suscripcion]);
+        return;
+    }
+    console.warn('Este tipo de suscripcion no existe');
+ }
+ 
 ```
 
 ## Ciclos
