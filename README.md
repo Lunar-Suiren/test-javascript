@@ -1,4 +1,4 @@
-# test-javascript-platzi
+# test-javascript
 
 ## Variables y operaciones
 
